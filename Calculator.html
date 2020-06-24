@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8">
+<meta name="description" content="This is an example of a Calculator"
+<meta name=viewport content="width=device-width"
+<title></title>
+    </head>
+    <body>
+        <form>
+            Value 1: <input type="text" id="value1"></input>
+
+            Value 2: <input type="text" id="value2"></input> 
+
+
+            Operator: 
+            <select id="Operator">
+<option value="add">Add</option> 
+<button type="button" onclick="calc()">Add</button>
+<option value="min">Minus</option>
+<button type="button" onclick="calc()">Minus</button>
+<option value="div">Divide</option>
+<button type="button" onclick="calc()">Divide</button>
+<option value="mul">Multiply</option>
+<button type="button" onclick="calc()">Multiply</button>
+
+            </select> 
+                        
+            <button type="button" onclick="calc()">Calculate</button>
+
+        </form>
+        <output type="text" id="value1";"value2"></output>
+
+        <div id="result">
+
+        </div>
+    </body>
+    <script src="Calculator.js"></script>
+</html>
